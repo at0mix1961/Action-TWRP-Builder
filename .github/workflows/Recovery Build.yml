@@ -14,15 +14,15 @@ on:
       DEVICE_TREE_URL:
         description: 'DEVICE_TREE_URL'
         required: true
-        default: 'https://github.com/at0mix1961/twrp_device_WIKO_W_V770'
+        default: 'https://github.com/at0mix1961/twrp_device_duoqin_f22'
       DEVICE_TREE_BRANCH:
         description: 'DEVICE_TREE_BRANCH'
         required: true
-        default: 'android-11'
+        default: 'duoqin-f22'
       DEVICE_PATH:
         description: 'DEVICE_PATH'
         required: true
-        default: 'device/WIKO/W_V770'
+        default: 'device/duoqin/f22'
       COMMON_TREE_URL:
         description: 'COMMON_TREE_URL (if no common tree, leave blank)'
         required: false
@@ -32,11 +32,11 @@ on:
       DEVICE_NAME:
         description: 'DEVICE_NAME'
         required: true
-        default: 'W_V770'
+        default: 'duoqin_f22'
       MAKEFILE_NAME:
         description: 'MAKEFILE_NAME'
         required: true
-        default: 'twrp_W_V770'
+        default: 'twrp_f22'
       BUILD_TARGET:
         description: 'BUILD_TARGET'
         required: true
